@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BasicControlsActivity" >
+
+    <!-- Reference for all items can be found here
+         http://developer.android.com/reference/packages.html
+         Check XML attributes and Inherited XML attributes. -->
+    
+    <TextView
+        android:id="@+id/the_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText android:id="@+id/the_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/the_text_view"
+        android:hint="@string/hint_text"
+        android:layout_marginBottom="20dp"/>
+    
+    <ToggleButton android:id="@+id/the_toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/the_edit_text"
+        android:layout_marginBottom="20dp"
+        android:onClick="togglePressed"/>
+    
+    <TextView android:id="@+id/label_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/the_toggle_button"
+        android:layout_alignParentRight="true"
+        android:text="@string/label_toggle_text"/>
+    
+    <Spinner android:id="@+id/the_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/the_toggle_button"/>
+    
+    <TextView android:id="@+id/label_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/the_spinner"
+        android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>

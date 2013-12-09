@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoApp</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="basic_controls_button_text">Basic Controls</string>
+    <string name="demo_app">DEMO\nAPP</string>
+    <string name="title_activity_basic_controls">BasicControlsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_text">This is hint text!</string>
+    <string name="label_toggle_text">Some text for toggle button</string>
+    <string-array name="spinner_values">
+        <item>Homer</item>
+        <item>Marge</item>
+        <item>Lisa</item>
+        <item>Bart</item>
+        <item>Maggie</item>
+    </string-array>
+
+</resources>
