@@ -21,10 +21,36 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.activity_main);
+		
 	}
 	
 	public void showBasicControls(View v) {
     	Intent intent = new Intent(this, BasicControlsActivity.class);
+    	startActivity(intent);
+	}
+	
+	public void showSharedPreferences(View v) {
+    	Intent intent = new Intent(this, SharedPreferencesActivity.class);
+    	startActivity(intent);
+	}
+	
+	public void showActionBar(View v) {
+    	Intent intent = new Intent(this, ActionBarActivity.class);
+    	startActivity(intent);
+	}
+	
+	public void showAudio(View v) {
+    	Intent intent = new Intent(this, AudioActivity.class);
+    	startActivity(intent);
+	}
+	
+	public void showGridView(View v) {
+    	Intent intent = new Intent(this, GridViewActivity.class);
+    	startActivity(intent);
+	}
+	
+	public void showAnimation(View v) {
+    	Intent intent = new Intent(this, AnimationActivity.class);
     	startActivity(intent);
 	}
 }

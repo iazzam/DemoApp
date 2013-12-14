@@ -28,7 +28,47 @@
             android:name="azzam.imad.demo.BasicControlsActivity"
             android:label="@string/title_activity_basic_controls"
             android:parentActivityName="azzam.imad.demo.MainActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="azzam.imad.demo.MainActivity" />
+        </activity>
+        <activity
+            android:name="azzam.imad.demo.SharedPreferencesActivity"
+            android:label="@string/title_activity_shared_preferences"
+            android:parentActivityName="azzam.imad.demo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="azzam.imad.demo.MainActivity" />
+        </activity>
+        <activity
+            android:name="azzam.imad.demo.ActionBarActivity"
+            android:label="@string/title_activity_action_bar"
+            android:parentActivityName="azzam.imad.demo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="azzam.imad.demo.MainActivity" />
+        </activity>
+        <activity
+            android:name="azzam.imad.demo.AudioActivity"
+            android:label="@string/title_activity_audio"
+            android:parentActivityName="azzam.imad.demo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="azzam.imad.demo.MainActivity" />
+        </activity>
+        <activity
+            android:name="azzam.imad.demo.GridViewActivity"
+            android:label="@string/title_activity_grid_view"
+            android:parentActivityName="azzam.imad.demo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="azzam.imad.demo.MainActivity" />
+        </activity>
+        <activity
+            android:name="azzam.imad.demo.AnimationActivity"
+            android:label="@string/title_activity_animation"
+            android:parentActivityName="azzam.imad.demo.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="azzam.imad.demo.MainActivity" />

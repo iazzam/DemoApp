@@ -14,13 +14,14 @@
     <TextView
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:keepScreenOn="true"
         android:text="@string/demo_app"
         android:textColor="#33b5e5"
         android:textSize="50sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:layout_marginTop="50dp"/>
 
     <!--
          This FrameLayout insets its children based on system windows using
@@ -51,11 +52,44 @@
                 android:onClick="showBasicControls"/>
             
             <Button
-                android:id="@+id/dummy_button_2"
+                android:id="@+id/shared_preferences_button"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:text="@string/shared_preferences_button_text"
+                android:onClick="showSharedPreferences"/>
+            
+            <Button
+                android:id="@+id/action_bar_button"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/action_bar_button_text"
+                android:onClick="showActionBar"/>
+            
+            <Button
+                android:id="@+id/audio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/audio_button_text"
+                android:onClick="showAudio"/>
+            
+            <Button
+                android:id="@+id/gridview_button"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/gridview_button_text"
+                android:onClick="showGridView"/>
+            
+            <Button
+                android:id="@+id/animation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/animation_button_text"
+                android:onClick="showAnimation"/>
             
         </LinearLayout>
     </FrameLayout>
