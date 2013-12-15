@@ -53,4 +53,9 @@ public class MainActivity extends Activity {
     	Intent intent = new Intent(this, AnimationActivity.class);
     	startActivity(intent);
 	}
+	
+	public void showInAppBilling(View v) {
+    	Intent intent = new Intent(this, InAppBillingActivity.class);
+    	startActivity(intent);
+	}
 }

@@ -52,4 +52,9 @@
     <string name="animate_left">Left</string>
     <string name="animate_right">Right</string>
     <string name="animate_magic">!</string>
+    <!--  -->
+    <string name="title_activity_in_app_billing">InAppBillingActivity</string>
+    <string name="inappbilling_button_text">In-App Billing</string>
+    <string name="start_setup">Start Setup</string>
+    <string name="query_inventory">Query Inventory</string>
 </resources>

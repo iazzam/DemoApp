@@ -21,7 +21,7 @@
         android:textSize="50sp"
         android:textStyle="bold"
         android:layout_gravity="top"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="10dp"/>
 
     <!--
          This FrameLayout insets its children based on system windows using
@@ -90,6 +90,14 @@
                 android:layout_weight="1"
                 android:text="@string/animation_button_text"
                 android:onClick="showAnimation"/>
+            
+            <Button
+                android:id="@+id/inappbilling_button"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/inappbilling_button_text"
+                android:onClick="showInAppBilling"/>
             
         </LinearLayout>
     </FrameLayout>
