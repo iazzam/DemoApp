@@ -26,4 +26,18 @@
         android:text="@string/query_inventory"
         android:onClick="queryInventory"
         android:visibility="gone"/>
+    
+    <Button android:id="@+id/purchase_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purchase"
+        android:onClick="purchase"
+        android:visibility="gone"/>
+    
+    <Button android:id="@+id/consume_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consume"
+        android:onClick="consume"
+        android:visibility="gone"/>
 </LinearLayout>
